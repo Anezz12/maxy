@@ -21,4 +21,4 @@ function validateParentheses(str) {
   return stack.length === 0;
 }
 console.log(validateParentheses("[{}<>]")); // true
-console.log(validateParentheses("[]]")); // false
+console.log(validateParentheses("[{}]]")); // false
